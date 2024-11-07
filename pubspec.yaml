@@ -1,0 +1,36 @@
+name: mobileresponsi
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+environment:
+  sdk: ^3.5.4
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_native_splash: ^2.4.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/image/logo.png
+    - assets/image/acc.png
+    - assets/image/Image.png
+    - assets/image/home.png
+    - assets/image/star.png
+    - assets/image/plus.png
+    - assets/image/play.png
+    - assets/image/foto.png
+    - assets/image/sett.jpeg
+    - assets/image/notif.jpeg
+
+  fonts:
+     - family: Poppins-Bold
+       fonts:
+         - asset: assets/fonts/Poppins-Bold.ttf
+     - family: Poppins-Regular
+       fonts:
+         - asset: assets/fonts/Poppins-Regular.ttf
